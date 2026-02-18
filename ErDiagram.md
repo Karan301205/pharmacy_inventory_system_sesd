@@ -4,6 +4,8 @@ erDiagram
     CATEGORIES ||--o{ MEDICINES : classifies
     BATCHES ||--o{ DISPENSE_LOGS : used_in
 
+
+```mermaid
     USERS {
         int id PK
         string full_name
@@ -46,3 +48,4 @@ erDiagram
         int quantity_dispensed
         timestamp dispensed_at
     }
+```
